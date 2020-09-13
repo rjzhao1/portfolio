@@ -52,10 +52,34 @@ img {
 	display: block;
 	max-width: 100%;
 }
-/* Typography */
+
 strong {
 	font-weight: var(--fw-bold);
 }
+
+.btn {
+	display: inline-block;
+	padding: 0.5em 2.5em;
+	background: var(--clr-accent);
+	color: var(--clr-dark);
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: var(--fw-bold);
+	transition: transform 200ms ease-in-out;
+}
+.btn:hover {
+	transform: scale(1.1);
+}
+
+:focus {
+	outline: 3px solid var(--clr-accent);
+	outline-offset: 3px;
+}
+/* Typography */
+
 h1,
 h2,
 h3 {
@@ -135,5 +159,48 @@ nav {
 		position: relative;
 		left: -1.5em;
 		width: calc(100%+1.5em);
+	}
+}
+
+.my-services {
+	background-color: var(--clr-dark);
+	background-image: url(../images/service.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+	color: var(--clr-light);
+	text-align: center;
+}
+
+.section_title-services {
+	color: var(--clr-accent);
+	position: relative;
+}
+
+.section_title-services::after {
+	content: '';
+	display: block;
+	width: 25%;
+	height: 1px;
+	margin: 0.5em auto 1em;
+	background: white;
+	opacity: 0.25;
+}
+.services {
+	margin-bottom: 4em;
+}
+.service {
+	max-width: 500px;
+	margin: 0 auto;
+}
+@media (min-width: 800px) {
+	.services {
+		display: flex;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.service + .service {
+		margin-left: 2em;
 	}
 }
