@@ -24,7 +24,7 @@
 
 @media (min-width: 800px) {
 	:root {
-		--fs-h1: 4.5 rem;
+		--fs-h1: 4.5rem;
 		--fs-h2: 3.75rem;
 		--fs-h3: 1.5rem;
 		--fs-body: 1.125rem;
@@ -36,7 +36,8 @@ body {
 	background: var(--clr-light);
 	color: var(--clr-dark);
 	margin: 0;
-	font-family: var(--fs-body);
+	font-family: var(--ff-primary);
+	font-size: var(--fs-body);
 	line-height: 1.6;
 }
 
@@ -44,7 +45,11 @@ img {
 	display: block;
 	max-width: 100%;
 }
-Typography h1,
+/* Typography */
+strong {
+	font-weight: var(--fw-bold);
+}
+h1,
 h2,
 h3 {
 	line-height: 1.1;
@@ -59,4 +64,24 @@ h2 {
 }
 h3 {
 	font-size: var(--fs-h3);
+}
+
+.section_title {
+	margin-bottom: 0.25em;
+}
+.section_title-intro {
+	font-weight: var(--fw-reg);
+}
+.section_title-intro strong {
+	display: block;
+}
+.section_subtitle {
+	margin: 0;
+	font-size: var(--fs-h3);
+}
+
+.section_subtitle-intro,
+.section_subtitle-about {
+	background: var(--clr-accent);
+	font-family: var(--ff-secondary);
 }
