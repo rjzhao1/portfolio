@@ -277,7 +277,14 @@ nav {
 		opacity 250ms linear;
 }
 
-.portfolio_img:hover {
+.portfolio_item:focus {
+	position: relative;
+	z-index: 2;
+	outline: none;
+}
+
+.portfolio_img:hover,
+.portfolio_item:focus .portfolio_img {
 	transform: scale(1.2);
 	opacity: 0.5;
 }
