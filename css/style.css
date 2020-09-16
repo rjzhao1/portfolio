@@ -366,9 +366,13 @@ nav {
 
 .portfolio {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	max-width: 1000px;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)) 25rem;
+	justify-self: center;
+	align-items: center;
+	max-width: 1500px;
 	margin: 0 auto;
+	column-gap: 2em;
+	row-gap: 2em;
 }
 
 .portfolio_item {
