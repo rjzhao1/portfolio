@@ -391,6 +391,17 @@ nav {
 	outline: none;
 }
 
+.portfolio_div {
+	position: relative;
+	z-index: 0;
+	background-color: transparent;
+	overflow: hidden;
+}
+.portfolio_img .portfolio_text {
+	background-color: var(--clr-dark);
+	z-index: 100;
+}
+
 .portfolio_img:hover,
 .portfolio_item:focus .portfolio_img {
 	transform: scale(1.2);
