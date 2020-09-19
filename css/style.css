@@ -80,6 +80,12 @@ strong {
 	transform: scale(1.1);
 }
 .btn-resume {
+	color: var(--clr-light);
+	outline: 3px solid var(--clr-dark);
+	outline-offset: 3px;
+}
+
+.btn-resume:focus {
 	outline: 3px solid var(--clr-dark);
 	outline-offset: 3px;
 }
