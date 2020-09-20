@@ -14,6 +14,7 @@
 
 	--clr-light: #fff;
 	--clr-dark: #303030;
+	--clr-grey: #616060;
 	--clr-accent: #e056fd;
 
 	--fs-h1: 3rem;
@@ -197,7 +198,7 @@ nav {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-	background: var(--clr-dark);
+	background: var(--clr-grey);
 	width: 2em;
 	height: 0.15em;
 	border-radius: 1em;
@@ -290,27 +291,41 @@ nav {
 	}
 }
 
-.my-services {
+.my-hobbies {
 	background-color: var(--clr-dark);
 
 	color: var(--clr-light);
 	text-align: center;
 }
-
-.section_title-services {
+.section_title-project,
+.section_title-hobbies {
 	color: var(--clr-accent);
 	position: relative;
 }
 
-.section_title-services::after {
+.section_subtitle-hobbies {
+	color: var(--clr-);
+	position: relative;
+	margin-bottom: 4em;
+}
+.section_title-project::after,
+.section_title-hobbies::after {
 	content: '';
 	display: block;
 	width: 25%;
 	height: 1px;
-	margin: 0.5em auto 1em;
 	background: white;
 	opacity: 0.25;
 }
+
+.section_title-project::after {
+	margin: 0.5em auto 1em;
+}
+
+.section_title-hobbies::after {
+	margin: 0.5em auto 0;
+}
+
 .services {
 	margin-bottom: 4em;
 }
