@@ -358,7 +358,7 @@ nav {
 @media (min-width: 600px) {
 	.about-me {
 		display: grid;
-		grid-template-columns: 1fr 200px;
+		grid-template-columns: 1fr 300px;
 		grid-template-areas:
 			'title img'
 			'subtitle img'
@@ -480,6 +480,7 @@ nav {
 }
 .social-list_link {
 	padding: 0.5em;
+	font-size: 2.5em;
 }
 
 .portfolio-item-individual {
