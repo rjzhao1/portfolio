@@ -3,7 +3,7 @@
 # Home Page
 Greetings Page
 # Project
-Showcase my Projects
+Showcase my Projects, includes links to the projects
 # About Me
 A discription of my background including education,goals and fields of interest
 # Personal Hobbies
