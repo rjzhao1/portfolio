@@ -7,6 +7,8 @@ Greetings Page
 
 # Project
 Showcase my Projects, includes links to the projects and technologies used
+![](images/projects.png)
+
 
 # About Me
 A discription of my background including education,goals and fields of interest
