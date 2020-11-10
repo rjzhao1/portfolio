@@ -7,7 +7,7 @@ Greetings Page
 
 # Project
 Showcase my Projects, includes links to the projects and technologies used
-![](images/project.png)
+![](images/projects.png)
 
 
 # About Me
