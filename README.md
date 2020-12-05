@@ -1,7 +1,6 @@
 # Portfolio Website made with HTML,CSS and Javascript
 
-# Home Page
-Greetings Page 
+# Home Page 
 ![](images/Homepage.png)
 
 
